@@ -1,0 +1,38 @@
+{
+  "name": "jest-runner-bun",
+  "version": "0.0.1",
+  "description": "Run test in Jest with Bun.",
+  "main": "jest-runner-bun/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jest/environment": "^29.5.0",
+    "@jest/expect": "^29.5.0",
+    "@jest/globals": "^29.5.0",
+    "@jest/test-result": "^29.5.0",
+    "@jest/types": "^29.5.0",
+    "assert": "^2.0.0",
+    "bun": "^0.5.7",
+    "chalk": "^5.2.0",
+    "co": "^4.6.0",
+    "create-jest-runner": "^0.12.3",
+    "dedent": "^0.7.0",
+    "is-generator-fn": "^3.0.0",
+    "jest": "^29.5.0",
+    "jest-circus": "^29.5.0",
+    "jest-each": "^29.5.0",
+    "jest-matcher-utils": "^29.5.0",
+    "jest-message-util": "^29.5.0",
+    "jest-runtime": "^29.5.0",
+    "jest-snapshot": "^29.5.0",
+    "jest-util": "^29.5.0",
+    "p-limit": "^4.0.0",
+    "pretty-format": "^29.5.0",
+    "pure-rand": "^6.0.0",
+    "slash": "^5.0.0",
+    "stack-utils": "^2.0.6"
+  }
+}
